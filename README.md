@@ -2,7 +2,7 @@
 # Kullanıcı yönetim sistemi 
 Bu Proje PostgreSQL veritabanı, Node.js ve Angular teknolojilerini kullanarak geliştirilmiştir. Kullanıcıların kaydolabileceği, giriş yapabileceği ve kullanıcı yönetimini sağlayan bir web uygulamasıdır.
 
-<img src="[https://github.com/deryaozturkk/BreastCancerWisconsinDiagnostic-NaiveBayes/assets/72493701/bf8a43a8-efe1-4130-9556-a751a70c8950](https://github.com/deryaozturkk/user_management_module/blob/main/img/add-user.png)" alt="image" width="400">
+<img src="(https://github.com/deryaozturkk/user_management_module/blob/main/img/add-user.png)" alt="image" width="400">
 
 
 
