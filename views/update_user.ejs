@@ -1,0 +1,53 @@
+<%-include('include/_header')%>
+
+
+<main id="site-main">
+    <div class="container py-3">
+        <div class="d-flex justify-content-between mb-3">
+            <div class="filter">
+                <a href="/" class="btn btn-secondary"><i class="fas fa-angle-double-left me-2"></i>Tüm Kullanıcılar</a>
+            </div>
+        </div>
+    </div>
+     
+    <form method="POST" id="update_user" class="form-container">
+        <div class="form-title text-center mb-3">
+            <h2 class="text-dark">Kullanıcı Güncelle</h2>
+            <span class="text-muted">Kullanıcı bilgilerini güncellemek için formu doldurunuz.</span><br><br>
+        </div>
+      
+        <div class="form-group">
+            <label for="name" class="form-label"><b>Ad Soyad</b></label><br>
+            <input type="text" class="form-control" placeholder="Ad Soyad" name="name" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="nickname" class="form-label"><b>Kullanıcı Adı</b></label><br>
+            <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="nickname" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="psw" class="form-label"><b>Şifre</b></label><br>
+            <input type="password" class="form-control" placeholder="Şifre" name="psw" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="role" class="form-label"><b>Rol</b></label><br>
+            <select name="role" id="role" class="form-select" required>
+                <option value="">Seçiniz</option>
+                <option value="admin">Yönetici</option>
+                <option value="user">Kullanıcı</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <button type="button" class="btn btn-secondary btn-sm me-2">İptal</button> 
+            <button type="submit" class="btn btn-primary btn-sm">Kaydet</button>
+        </div>
+        
+    </form>
+</main>
+
+
+
+<%-include('include/_footer')%>
