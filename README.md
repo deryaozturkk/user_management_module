@@ -2,9 +2,12 @@
 # Kullanıcı yönetim sistemi 
 Bu Proje PostgreSQL veritabanı, Node.js ve Angular teknolojilerini kullanarak geliştirilmiştir. Kullanıcıların kaydolabileceği, giriş yapabileceği ve kullanıcı yönetimini sağlayan bir web uygulamasıdır.
 
+Kullanıcı Giriş Sayfasına Gider: 
+<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/login.png" alt="image" width="800">
+
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/add-user.png" alt="image" width="800">
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/all%20users.png" alt="image" width="800">
-<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/login.png" alt="image" width="600">
+
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/login.wrong_email.png" alt="image" width="800">
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/update-user.png" alt="image" width="800">
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/user_register.png" alt="image" width="800">
