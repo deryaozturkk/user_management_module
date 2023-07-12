@@ -1,3 +1,37 @@
+
+# Kullanıcı yönetim sistemi 
+Bu Proje PostgreSQL veritabanı, Node.js ve Angular teknolojilerini kullanarak geliştirilmiştir. Kullanıcıların kaydolabileceği, giriş yapabileceği ve kullanıcı yönetimini sağlayan bir web uygulamasıdır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
