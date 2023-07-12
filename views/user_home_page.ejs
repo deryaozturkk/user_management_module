@@ -1,38 +1,20 @@
-<%- include('include/_header') %>
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Dashboard</h1>
 
-<main id="site-main">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <form action="/" method="POST">
-          <table class="table">
-            <thead class="table-dark">
-              <tr>
-                <th>ID</th>
-                <th>Kullanıcı Adı</th>
-                <th>Ad Soyad</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Kullanıcı Adı</td>
-                <td>Ad Soyad</td>
-                <td>
-                    <a href="/update-user" class="btn borders-shadow update">
-                        <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
-                    </a>
-                    <a class="btn borders-shadow delete">
-                        <span class="text-gradient"><i class="fas fa-times"></i></span>
-                    </a>
-                </td>
-            </tr>
-            </tbody>
-          </table>
-        </form>
-      </div>
-    </div>
-  </div>
-</main>
+    <a href="/users/logout">Çıkış</a>
 
-<%- include('include/_footer') %>
+    <h4>Hello <%= user %></h4>
+  </body>
+</html>
