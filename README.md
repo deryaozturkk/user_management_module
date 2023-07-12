@@ -4,41 +4,16 @@ Bu Proje PostgreSQL veritabanı, Node.js ve Angular teknolojilerini kullanarak g
 
 Kullanıcı Giriş Sayfasına Gider: 
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/login.png" alt="image" width="800">
-
-<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/add-user.png" alt="image" width="800">
-<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/all%20users.png" alt="image" width="800">
-
+Kullanıcı Girişi:
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/login.wrong_email.png" alt="image" width="800">
-<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/update-user.png" alt="image" width="800">
+Kullanıcı Kaydı:
 <img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/user_register.png" alt="image" width="800">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Admin İçin Kullanıcı Listesi:
+<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/all%20users.png" alt="image" width="800">
+Kullanıcı Ekleme:
+<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/add-user.png" alt="image" width="800">
+Kullanıcı Güncelleme:
+<img src="https://github.com/deryaozturkk/user_management_module/blob/main/img/update-user.png" alt="image" width="800">
 
 # Frontend
 
